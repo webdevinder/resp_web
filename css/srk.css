@@ -1,0 +1,143 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+.font-f {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.head-bg {
+  background: url("../images/home-bg.jpg") fixed no-repeat;
+  background-size: 100% 100%; /* width height */
+  height: 700px;
+}
+.head-bg-over-clr {
+  background: rgba(0, 0, 0, 0.4);
+  height: 700px;
+}
+.grp-bg-over-clr {
+  height: 500px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hands-on-comp-over-clr {
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 546px) {
+  .head-bg {
+    background: url("../images/home-bg.jpg") fixed no-repeat;
+    background-size: 100% 100%; /* width height */
+    height: 900px;
+  }
+}
+.hands-on-comp {
+  background: url("../images/promotion-bg.jpg") fixed;
+  height: 400px;
+  background-size: 100% 100%;
+}
+@media (max-width: 576px) {
+  .hands-on-comp {
+    background: url("../images/promotion-bg.jpg") fixed no-repeat;
+    height: 500px;
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 576px) {
+  .btn-m {
+    margin: 5px;
+  }
+}
+.grp-bg {
+  background: url("../images/video-bg.jpg") fixed no-repeat;
+  height: 500px;
+  background-size: 100% 100%;
+}
+.nav li a {
+  color: white !important;
+}
+.nav li a:hover {
+  color: #41cb52 !important;
+}
+.logo-srk {
+  width: 100px;
+  height: 80px;
+}
+.big-text {
+  font-size: 40px;
+}
+.p-wid-70 {
+  width: 70%;
+  margin: auto;
+}
+.lg-pad {
+  padding: 100px;
+}
+.bg-1 {
+  background: #f8f8f8;
+}
+.bg-2 {
+  background: #282828;
+}
+.icon-40 {
+  font-size: 40px;
+}
+.ver-ctr-icon {
+  font-size: 15px;
+  vertical-align: middle;
+}
+.bg-light-like {
+  background-color: #f6f6f6;
+}
+a {
+  text-decoration: none;
+}
+.card-body a {
+  color: #000;
+}
+.card-body a:hover {
+  color: #41cb52;
+}
+.prime-text {
+  color: #41cb52;
+}
+.prime-bg {
+  background: #41cb52;
+}
+input {
+  outline: none;
+}
+textarea {
+  resize: none;
+  border: 1px solid #898787;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #41cb52;
+  outline: none;
+}
+textarea,
+.input-100 {
+  width: 100%;
+  margin-top: 16px;
+  padding-left: 20px;
+}
+.input-50 {
+  width: 49%;
+  margin-top: 16px;
+  padding-left: 20px;
+}
+.play-icon {
+  font-size: 60px;
+}
+.h-50 {
+  height: 50px !important;
+}
+.foot-bg {
+  background-color: #24324a;
+}
+.social-icons i {
+  font-size: 30px;
+}
+.about-bg-height {
+  height: 100%;
+}
